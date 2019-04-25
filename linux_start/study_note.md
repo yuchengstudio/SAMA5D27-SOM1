@@ -28,3 +28,11 @@ https://github.com/yuchengstudio/SAMA5D27-SOM1/blob/master/reference/c7ff0148d64
 ## 2.2逻辑示意图
 ![image](https://github.com/yuchengstudio/SAMA5D27-SOM1/blob/master/reference/linux_start_with_SAMA5D27-SOM1-EK1_001.jpg)
 
+## 3.Q&A
+Q1.为什么要使用“mount”挂载步骤。
+A1:mount 是挂载的意思，就如Windows系统下插入U盘，会自动挂载识别系统创建访问盘符，Linux不会主动挂载你的设备，会注册设备，而挂载需要手动，所以mount就是挂载你的存储设备用以文件交流.
+Q2.为什么要将可执行文件copy到用户文件目录下。
+A2： Linux 讲究的就是用户权限，系统级别的目录和文件都是受限制的，user folder是有全权的处理权限，所以把要处理的文件copy到你的工作目录下，你可以自由使用.
+Q3. 为什么要使用“chmod”指令
+A3：chmod更改文件属性，包括是否可读，可写还有可执行，然后就是可以访问的用户组，什么人可以访问。这个可以在网上搜索chmod的命令说明，有很好的解释，这个命令可以扩展出很多Linux的权限知识，这也是Linux的文件访问的精髓.
+
