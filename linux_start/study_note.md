@@ -21,9 +21,9 @@ https://github.com/yuchengstudio/SAMA5D27-SOM1/blob/master/reference/HowTo_AT91_
 9.使用cp /mnt/gpio_test /user.(可以使用cd /user 定位到user文件夹，然后用ls命令看文件下的文件，应该有gpio_test这个文件了)
 10.“chmod +x gpio_test”命令。
 11.最后使用"./gpio_test"执行命令。
-
-
+可以看到最终PB2口会有相应的波形输出。
 ```
+https://github.com/yuchengstudio/SAMA5D27-SOM1/blob/master/reference/c7ff0148d641d549ef0e60814fe54c11.mp4
 
 ## 2.2逻辑示意图
 ![image](https://github.com/yuchengstudio/SAMA5D27-SOM1/blob/master/reference/linux_start_with_SAMA5D27-SOM1-EK1_001.jpg)
